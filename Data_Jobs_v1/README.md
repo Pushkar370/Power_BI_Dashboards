@@ -11,14 +11,14 @@ Coming in with no prior Power BI experience, my goal wasn't just to build one da
 | File | Description |
 |---|---|
 | `Dashboards_1.pbix` | Power BI report file containing both dashboard pages |
-| `Screenshot 2026-09-17 164809.png` | Main "Data Jobs Dashboard" landing page |
-| `Screenshot 2026-09-17 164934.png` | Job Title drill-through page (example: Data Scientist) |
+| `../images/Screenshot 2026-09-17 164809.png` | Main "Data Jobs Dashboard" landing page |
+| `../images/Screenshot 2026-09-17 164934.png` | Job Title drill-through page (example: Data Scientist) |
 
 ## 🖥️ Page 1 — Dashboard Overview
 
 The main page gives a high-level view of the job market, with a slicer to filter by **Job Title**.
 
-![Data Jobs Dashboard Overview](Screenshot%202026-09-17%20164809.png)
+![Data Jobs Dashboard Overview](../images/Screenshot%202026-09-17%20164809.png)
 
 **Visuals implemented on this page:**
 - **KPI cards** — Job Count (479K), Median Yearly Salary ($113K), Median Hourly Salary ($47.62)
@@ -34,7 +34,7 @@ The main page gives a high-level view of the job market, with a slicer to filter
 
 Clicking into a specific role (e.g. **Data Scientist**) opens a dedicated drill-through page with deeper insights.
 
-![Job Title Drill-Through — Data Scientist](Screenshot%202026-09-17%20164934.png)
+![Job Title Drill-Through — Data Scientist](../images/Screenshot%202026-09-17%20164934.png)
 
 **Visuals implemented on this page:**
 - **Gauge charts** — Median Yearly Salary and Median Hourly Salary, with min–max range
